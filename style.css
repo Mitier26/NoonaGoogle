@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1em;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 8px;
+    margin: 0px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+    margin: 0 8px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.icon {
+    margin: 0;
+}
+
+i {
+    margin: 0 8px;
+    color: rgb(94, 94, 94)
+}
+
+.round {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 100%;
+}
+
+.round:hover {
+    background-color: rgb(219, 219, 219);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.serch {
+    position: relative;
+    left: 40px;
+}
+
+img {
+    margin-top: 160px;
+    width: 340px;
+}
+
+input {
+    width: 520px;
+    height: 42px;
+    border: 1px solid gray;
+    border-radius: 48px;
+    padding: 1px 120px 1px 50px;
+}
+
+input:hover {
+    background-color: rgb(211, 211, 211);
+    border-color: rgb(211, 211, 211);
+}
+
+.left {
+    position: relative;
+    left: 48px;
+}
+
+.other_input {
+    position: relative;
+    right: 120px;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+button {
+    height: 36px;
+    font-size: 0.9em;
+    line-height: 36px;
+    padding: 0 16px;
+    margin: 0 8px;
+    border: 1px solid white;
+}
+
+button:hover{
+    border: 1px solid rgb(216, 216, 216);
+    box-shadow: 0px 1px 1px  rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+
+.lag {
+    margin-top: 24px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.first_foot {
+    margin-left: 30px;
+    height: 46px;
+    line-height: 46px;
+}
+
+.second_foot {
+    display: flex;
+    height: 54px;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid rgb(198, 198, 198);
+}
